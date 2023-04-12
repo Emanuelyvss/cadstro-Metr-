@@ -1,0 +1,44 @@
+body{
+    background-image: url(../imagem/lasse-moller-IZez-1pcoxQ-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+header h1{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color:white;
+font-size: 40pt;
+line-height: 100px;
+}
+
+#conteudo{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#central{
+    width: 80%;
+    height: 90%;
+   background-color: white;
+   display: flex;
+}
+#banner{
+    width: 50%;
+    height: 100%; 
+    background-color:peachpuff; 
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+    opacity: 70%;
+}
+#cadastro{
+    width: 50%;
+    height: 100;
+    background-color:gray;
+ 
+}
