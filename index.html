@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="../estilos/index.css">
+    <link rel="stylesheet" href="../estilos/geral.css">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <h1>CADASTRO   METRO</h1>
+        </header>
+        <div id="conteudo">
+            <div id="central">
+                <div id="banner">
+                    <img src="../imagem/markus-spiske-e2Ccw2lwDy8-unsplash.jpg">
+                </div>
+                   <div id="cadastro">
+                       <h1>CADASTRO</h1>
+                       <form action="../pagina/home.html" method="post">
+                    <!--NOME-->
+                           <label for="nome">Nome</label>
+                           <input type="text" id="nome" autocomplete="off"><br>
+                           <!--REQUERIMENTO OBRIGATORIO-->
+                    <!--EMAIL-->
+                           <label for="email">Email</label>
+                           <input type="email"id="email" required placeholder="exemplo@gmail.com"><br>
+                    <!--SENHA-->
+                        <label for="">Senha</label>
+                        <input type="password"id="senha" required><br>
+                    <!--DATA-->
+                        <label for="data">Data</label>
+                        <input type="date"id="senha" required><br>
+                    <!--HORA-->
+                        <label for="hora">Hora</label>
+                        <input type="time"id="hora" required><br>
+                    <!--NUMERO-->
+                        <label for="numero">Salário</label>
+                        <input type="number"id="numero" step="0.01" min="0" max="1000" value="500"><br>
+                    <!--COR-->
+                        <label for="cor">Cor</label>
+                        <input type="color"id="cor" required><br>
+                    <!--TELEFONE-->
+                        <label for="telefone">Telefone</label>
+                        <input type="tel"id="telefone" required><br>
+                    <!--TEL-->
+                        <label for="arquivo">Enviar uma foto</label>
+                        <input type="file"id="arquivo" required><br>
+                    <!--SELEC-->
+                     <select id="dominio">
+                         <option value="HTML">HTML</option>
+                         <option value="JAVA">JAVA</option>
+                         <option value="CSS">CSS</option>
+                         <option value="BOOYTSTRAP">BOOTSTAP</option>
+                     </select>
+                
+                    <!--SUBMIT-->
+                    <!--<input type="submit" id="enviar">-->
+                         <button type="submit">Enviar</button>
+                         <button type="reset">Limpar</button>
+                       </form>
+
+                   </div>
+            </div>
+        </div>
+
+        <footer></footer>
+    </div>
+</body>
+</html>
